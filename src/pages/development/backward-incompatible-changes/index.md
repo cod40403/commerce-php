@@ -185,6 +185,9 @@ PHP 8.4 introduces several new features and improvements, but it also brings bre
 
 If custom code or modules are in use, they could need to be modified to comply with [PHP 8.4 changes](https://php.watch/versions/8.4/implicitly-marking-parameter-type-nullable-deprecated). Review and update the custom code to resolve any deprecated functions or features.
 
+### GraphQL Schema Update
+The type of the `gift_message_available` field in the `ProductInterface` has been updated from `String` to `Boolean!`. This change ensures a more accurate and flexible representation of gift message availability within the Product interface.
+
 ## 2.4.7
 
 The following major backward-incompatible changes were introduced in the 2.4.7 Adobe Commerce and Magento Open Source releases:
